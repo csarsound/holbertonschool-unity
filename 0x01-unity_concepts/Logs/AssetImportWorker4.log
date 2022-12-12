@@ -1,0 +1,26 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.13.6 (Build 17G14042)
+Darwin version:          17.7.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        4096 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2019.4.11f1/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/mac/Documents/Holberton Files/holbertonschool-unity/0x01-unity_concepts
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49969
+Successfully changed project path to: /Users/mac/Documents/Holberton Files/holbertonschool-unity/0x01-unity_concepts
