@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float playerSpeed = 10f;
     public float playerJumpHeight = 5f;
     public float gravity = -9.81f;
+    public Transform fallCheck;
 
 
     // Start is called before the first frame update
@@ -22,6 +23,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FallFromWorld();
+
+        // Restore value of Velocity
+        if (IsGrounded() && playerVelocity.y < 0)
         Movements();
         Jump();
     }
@@ -54,5 +59,17 @@ public class PlayerController : MonoBehaviour
     bool IsGrounded()
     {
         return Physics.CheckSphere(groundCheck.position, 0.4f, groundMask);
+    }
+
+    //Change the position if player fell
+    void FallFromWorld()
+    {
+        if (characterController.transform.position.y <= fallCheck.position.y)
+        {
+            characterController.enabled = false;
+            characterController.transform.position = new Vector3(0, 100, 0);
+            characterController.enabled = true;
+        }
+        characterController.velocity.Set(0,0,0);
     }
 }
