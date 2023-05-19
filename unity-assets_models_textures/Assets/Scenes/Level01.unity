@@ -607,7 +607,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &661468881
 GameObject:
@@ -620,6 +620,7 @@ GameObject:
   - component: {fileID: 661468884}
   - component: {fileID: 661468883}
   - component: {fileID: 661468882}
+  - component: {fileID: 661468885}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -685,14 +686,28 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661468881}
-  m_LocalRotation: {x: 0.078459114, y: 0, z: 0, w: 0.99691737}
-  m_LocalPosition: {x: 0, y: 2.5, z: -6.25}
+  m_LocalRotation: {x: 0.078459114, y: -0, z: -0, w: 0.99691737}
+  m_LocalPosition: {x: 0, y: 1.25, z: -6.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1989321005}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 9, y: 0, z: 0}
+--- !u!114 &661468885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661468881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5078b515e3974c60a11ff8084db2880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerBody: {fileID: 1989321005}
+  mouseSensitivity: 100
 --- !u!1 &857001874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1101,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6905941353501400785, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
   m_PrefabInstance: {fileID: 2003849411}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1989321005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6905941353501400789, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
+  m_PrefabInstance: {fileID: 2003849411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1989321006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,7 +1156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6905941353501400789, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6905941353501400789, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1218,7 +1238,7 @@ Transform:
   - {fileID: 1585004983}
   - {fileID: 857001875}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042895241
 GameObject:
@@ -1312,7 +1332,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &2129903077
 GameObject:
