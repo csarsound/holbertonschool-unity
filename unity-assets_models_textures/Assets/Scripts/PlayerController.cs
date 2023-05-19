@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour
 
         // Restore value of Velocity
         if (IsGrounded() && playerVelocity.y < 0)
+        {
+            playerVelocity.y = -2f;
+        }
+
         Movements();
         Jump();
     }
