@@ -821,7 +821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607999158}
   m_LocalRotation: {x: -0, y: 0.66203487, z: -0, w: 0.7494731}
-  m_LocalPosition: {x: -2.11, y: 2.27, z: 295.01}
+  m_LocalPosition: {x: -4.870001, y: 2.27, z: 316.91003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1617,7 +1617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae96b99932c674b17bc6cf26dee2b43d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.739999
+      value: -15.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae96b99932c674b17bc6cf26dee2b43d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1625,7 +1625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae96b99932c674b17bc6cf26dee2b43d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 292.8
+      value: 314.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae96b99932c674b17bc6cf26dee2b43d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2953,7 +2953,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   playerSpeed: 10
-  playerJumpHeight: 100
+  playerJumpHeight: 10
   gravity: -100
   fallCheck: {fileID: 237456122}
 --- !u!143 &1989321007
