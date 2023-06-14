@@ -1,25 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform playerBody;
     public float mouseSensitivity = 100f;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        // Obtener el movimiento horizontal del trackpad
+        float trackpadInput = Input.GetAxis("Mouse X");
         
-        // Rotate player on Y axis when mouse goes
-        // From left to right - mouseX axis
-        playerBody.Rotate(Vector3.up * mouseX);
+        // Rotar la cámara en función del movimiento del trackpad
+        transform.Rotate(Vector3.up * trackpadInput * mouseSensitivity * Time.deltaTime);
     }
 }
