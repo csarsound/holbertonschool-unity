@@ -1199,6 +1199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01252df7fb4f94ca498aa221a7d84d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toggle: {fileID: 1672884291}
 --- !u!1 &785943189
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1287,7 @@ GameObject:
   - component: {fileID: 1003195552}
   - component: {fileID: 1003195551}
   - component: {fileID: 1003195550}
+  - component: {fileID: 1003195553}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1359,6 +1361,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1003195553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003195549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5078b515e3974c60a11ff8084db2880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  isInverted: 0
 --- !u!1 &1055273261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +2337,7 @@ PrefabInstance:
     - target: {fileID: 248924299695501108, guid: c1ff83f7fdb2a4c96bc57e6275180941, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 746559694}
+      objectReference: {fileID: 0}
     - target: {fileID: 248924299695501108, guid: c1ff83f7fdb2a4c96bc57e6275180941, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2440,6 +2456,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1920042575}
     m_Modifications:
+    - target: {fileID: 4081980739179529725, guid: f2a38ee545a73423088c44affe55fa58, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081980739179529725, guid: f2a38ee545a73423088c44affe55fa58, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 746559694}
+    - target: {fileID: 4081980739179529725, guid: f2a38ee545a73423088c44affe55fa58, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnToggleValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081980739179529725, guid: f2a38ee545a73423088c44affe55fa58, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OptionsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081980739179529725, guid: f2a38ee545a73423088c44affe55fa58, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6915529025329066252, guid: f2a38ee545a73423088c44affe55fa58, type: 3}
       propertyPath: m_Name
       value: ApplyButton

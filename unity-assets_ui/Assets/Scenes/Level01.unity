@@ -1190,6 +1190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
+  isInverted: 0
 --- !u!1001 &812144315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3646,7 +3647,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1989321014}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3114083234012061966, guid: 478cba23ddd3f421692cdaa9e0530839, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 478cba23ddd3f421692cdaa9e0530839, type: 3}
 --- !u!1001 &7484740106439548569
 PrefabInstance:

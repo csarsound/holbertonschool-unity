@@ -20,4 +20,3 @@ public class MainMenu : MonoBehaviour
         Application.Quit(); // Cierra el juego
     }
 }
-
