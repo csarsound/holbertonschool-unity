@@ -4,19 +4,35 @@ using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
-    public Toggle toggle;
+    public Toggle invertYToggle;
+
+    private bool isInverted = false;
 
     private void Start()
     {
         // Recuperar el valor guardado del toggle y asignarlo al estado actual
-        toggle.isOn = PlayerPrefs.GetInt("IsInverted", 0) == 1;
+        isInverted = PlayerPrefs.GetInt("IsInverted", 0) == 1;
+        invertYToggle.isOn = isInverted;
     }
 
-    public void OnToggleValueChanged()
+    public void Apply()
     {
         // Guardar el estado actual del toggle en PlayerPrefs
-        PlayerPrefs.SetInt("IsInverted", toggle.isOn ? 1 : 0);
-        int previousSceneIndex = SceneManager.GetActiveScene().buildIndex - 1;
+        isInverted = invertYToggle.isOn;
+        PlayerPrefs.SetInt("IsInverted", isInverted ? 1 : 0);
+
+        ReturnToPreviousScene();
+    }
+
+    public void Back()
+    {
+        ReturnToPreviousScene();
+    }
+
+    private void ReturnToPreviousScene()
+    {
+        // Obtener el índice de la escena anterior en la secuencia de escenas del juego
+        int previousSceneIndex = PlayerPrefs.GetInt("PreviousSceneIndex", 0);
         SceneManager.LoadScene(previousSceneIndex);
     }
 }
