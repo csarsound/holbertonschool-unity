@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.81f;
     public Transform fallCheck;
 
+    private Vector3 movement;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,8 @@ public class PlayerController : MonoBehaviour
 
         Movements();
         Jump();
+            // Si no hay un objetivo, simplemente aplicar el movimiento del jugador
+            characterController.Move(movement * playerSpeed * Time.deltaTime);
     }
 
     void Movements()
@@ -41,8 +44,7 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         // Movement Streight
-        Vector3 playerMove = transform.right * x + transform.forward * z;
-        characterController.Move(playerMove * playerSpeed * Time.deltaTime);
+        movement = transform.right * x + transform.forward * z;
     }
 
     // Player jump

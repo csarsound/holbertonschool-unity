@@ -7,10 +7,13 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     public Text timerText;
+    public Text finalTime;
     private float time;
     private float minutes;
     private float seconds;
     private float milliseconds;
+
+    private bool isFinished = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +23,7 @@ public class Timer : MonoBehaviour
 
      IEnumerator InGameTimer()
      {
-        while (true)
+        while (!isFinished)
         {
             // Time flow
             time += Time.deltaTime;
@@ -31,6 +34,15 @@ public class Timer : MonoBehaviour
             timerText.text = string.Format("{0:0}:{1:00}.{2:00}", minutes, seconds, milliseconds);
 
             yield return null;
+        }
+     }
+
+     public void Win()
+     {
+        if (!isFinished)
+        {
+            finalTime.text = timerText.text;
+            isFinished = true;
         }
      }
 }
