@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 268685205}
   - component: {fileID: 268685204}
   - component: {fileID: 268685207}
+  - component: {fileID: 268685208}
   m_Layer: 0
   m_Name: CutsceneCamera
   m_TagString: Untagged
@@ -471,6 +472,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &268685208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268685203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2eebcf7554f24a538a3c6b91e5a9c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 661468881}
+  player: {fileID: 1989321001}
+  timerCanvas: {fileID: 1257177524}
 --- !u!1 &285438452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b90a0e825dbf14067a3367e3341764a9, type: 3}
@@ -1937,6 +1953,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c18e0565cb8cd4805840a5493dec9db3, type: 3}
   m_PrefabInstance: {fileID: 1250603919}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1257177524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7973861616616361098, guid: 0031b207581e3460c9944cccee832e0c, type: 3}
+  m_PrefabInstance: {fileID: 7484740106439548569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1284713278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3111,7 +3132,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989321001}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26bb0f233555e47e59a28fab3059ef76, type: 3}
   m_Name: 
@@ -3913,7 +3934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7973861616616361098, guid: 0031b207581e3460c9944cccee832e0c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0031b207581e3460c9944cccee832e0c, type: 3}
