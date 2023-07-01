@@ -1,9 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+
 
 public class Pause : MonoBehaviour
 {
     public GameObject pauseCanvas;
-
     private bool isPaused = false;
 
     private void Update()

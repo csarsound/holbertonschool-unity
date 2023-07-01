@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 2f5c2dfb30bc24a63b6aefd42b820620
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 293
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b562ae1b4a29f45aebe5d19afe4a8493
+      internalID: 771475490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 294
+        width: 112
+        height: 103
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850520a9081af4864b7cbefc31aa5e94
+      internalID: -1988078545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 294
+        width: 112
+        height: 103
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b7ea0e0e24f44e192c08c23f026dce
+      internalID: 1832081244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 293
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab2c47ecc5d74ed9a756c3856a96cd5
+      internalID: 422816179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 153
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8ba7b0de0e4f1eb4f4861e563ea91
+      internalID: -806634486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 154
+        width: 112
+        height: 103
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47df8cd43d9c94a3d8e3e0d47ddbddc4
+      internalID: -253868327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 154
+        width: 112
+        height: 103
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c966de8819543b7bc9c24b0b353bb6
+      internalID: 1336572792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 153
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdbdb003ccd24452805a3ccddc98b9c
+      internalID: 1485335652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 20
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8475f932d0d4a4a4f939dac26208271d
+      internalID: 418162752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 21
+        width: 112
+        height: 103
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6992de3bef749749ccbb2210a3d59a
+      internalID: 1945491829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 21
+        width: 112
+        height: 103
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521a03a9ef533463aa02b979ee39c0b7
+      internalID: -656600437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 20
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827befcf73dd44fc298a604860932d1d
+      internalID: 539354411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_0: 771475490
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_1: -1988078545
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_10: -656600437
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_11: 539354411
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_2: 1832081244
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_3: 422816179
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_4: -806634486
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_5: -253868327
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_6: 1336572792
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_7: 1485335652
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_8: 418162752
+      Custom Edited - Friday Night Funkin Customs - Arrows Complex Kids TV-Style_9: 1945491829
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
