@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 2143712124032971069}
   - component: {fileID: 2143712124032971046}
   - component: {fileID: 2143712124032971045}
+  - component: {fileID: 954523498602172988}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -300,6 +301,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuCanvas: {fileID: 0}
+--- !u!95 &954523498602172988
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785404199794744833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 943a51046478d46cdbd2b271e9051899, type: 3}
+  m_Controller: {fileID: 9100000, guid: 41761755e53d24368a29fd7c6525284d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &4224317330866758857
 PrefabInstance:
   m_ObjectHideFlags: 0
