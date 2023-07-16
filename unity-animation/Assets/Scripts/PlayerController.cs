@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Verificar si está dentro de la Sub-State Machine "FallingDown"
-        bool isInFallingDown = animator.GetCurrentAnimatorStateInfo(0).IsTag("FallingDown");
+        bool isInFallingDown = animator.GetCurrentAnimatorStateInfo(0).IsTag("Falling Flat Impact");
 
         // Actualizar el booleano "isFallingFlatImpact" en función de si está en "FallingDown"
         isFallingFlatImpact = isInFallingDown;
