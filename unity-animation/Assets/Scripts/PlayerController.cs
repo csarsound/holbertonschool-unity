@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Verificar si está dentro de la Sub-State Machine "FallingDown"
-        bool isInFallingDown = animator.GetCurrentAnimatorStateInfo(0).IsTag("Falling Flat Impact");
+        bool isInFallingDown = animator.GetCurrentAnimatorStateInfo(0).IsTag("GettingUp");
 
         // Actualizar el booleano "isFallingFlatImpact" en función de si está en "FallingDown"
         isFallingFlatImpact = isInFallingDown;
@@ -43,7 +43,8 @@ public class PlayerController : MonoBehaviour
             playerVelocity.y = -2;
             // Activar la animación "Falling Flat Impact"
             animator.SetTrigger("FallingFlatImpact");
-            // Controlar el estado de la animación "Falling Flat Impact"
+            // Controlar el estado de la animación "GettingUp"
+            animator.SetTrigger("GettingUp");
         }
 
         Movements();
