@@ -32,7 +32,10 @@ public class PlayerController : MonoBehaviour
         // Restore value of Velocity
         if (IsGrounded() && playerVelocity.y < 0)
         {
-            playerVelocity.y = -2f;
+            playerVelocity.y = -2;
+
+            // Desactivar la animación "Falling"
+            animator.SetBool("Falling", false);
         }
 
         Movements();
@@ -99,6 +102,7 @@ public class PlayerController : MonoBehaviour
     {
         if (characterController.transform.position.y <= fallCheck.position.y)
         {
+            animator.SetBool("Falling", true);
             characterController.enabled = false;
             characterController.transform.position = new Vector3(0, 10, 0);
             characterController.enabled = true;
