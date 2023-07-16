@@ -4,17 +4,23 @@ using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
+    public Transform playerTransform;
     public float mouseSensitivity = 100f;
     public bool isInverted = false; // Booleano para invertir el eje Y
+
+    private Vector3 offset; 
 
     private void Start()
     {
         // Recuperar el valor guardado del toggle
         isInverted = PlayerPrefs.GetInt("IsInverted", 0) == 1;
+
+        // Calcular el desplazamiento inicial entre la cámara y el jugador
+        offset = transform.position - playerTransform.position;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         // Obtener el movimiento horizontal del trackpad
         float trackpadInput = Input.GetAxis("Mouse X");
