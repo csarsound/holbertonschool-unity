@@ -14,9 +14,10 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.81f;
     public Transform fallCheck;
     public Transform ty;
+    public Animator animator; //Reference animator Ty
 
     private Vector3 movement;
-    public Animator animator; //Reference animator Ty
+    public bool isFallingFlatImpact = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,21 +28,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Verificar si está dentro de la Sub-State Machine "FallingDown"
+        bool isInFallingDown = animator.GetCurrentAnimatorStateInfo(0).IsTag("FallingDown");
+
+        // Actualizar el booleano "isFallingFlatImpact" en función de si está en "FallingDown"
+        isFallingFlatImpact = isInFallingDown;
+
+
         FallFromWorld();
 
         // Restore value of Velocity
         if (IsGrounded() && playerVelocity.y < 0)
         {
             playerVelocity.y = -2;
-
-            // Desactivar la animación "Falling"
-            animator.SetBool("Falling", false);
+            // Activar la animación "Falling Flat Impact"
+            animator.SetTrigger("FallingFlatImpact");
+            // Controlar el estado de la animación "Falling Flat Impact"
         }
 
         Movements();
         Jump();
-            // Si no hay un objetivo, simplemente aplicar el movimiento del jugador
+
+        // Si no hay un objetivo y no está ocurriendo la animación "Falling Flat Impact", aplicar el movimiento del jugador
+        if (!isFallingFlatImpact)
+        {
             characterController.Move(movement * playerSpeed * Time.deltaTime);
+        }
     }
 
     void Movements()
@@ -82,7 +94,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             playerVelocity.y = Mathf.Sqrt(playerJumpHeight * -2f * gravity);
-            // Activar la animación "Jump"
+            // Activate Animation Jump
             animator.SetTrigger("Jump");
         }
 
@@ -102,11 +114,12 @@ public class PlayerController : MonoBehaviour
     {
         if (characterController.transform.position.y <= fallCheck.position.y)
         {
-            animator.SetBool("Falling", true);
+            animator.SetTrigger("Falling");
             characterController.enabled = false;
             characterController.transform.position = new Vector3(0, 10, 0);
             characterController.enabled = true;
         }
+
         characterController.velocity.Set(0,0,0);
     }
 }
