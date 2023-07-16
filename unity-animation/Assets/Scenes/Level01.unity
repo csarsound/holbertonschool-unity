@@ -2444,6 +2444,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7705791283668964911, guid: 57fd792efb455437da850a72d9845925, type: 3}
+--- !u!4 &1644870370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 696185113453424986, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
+  m_PrefabInstance: {fileID: 1018906230500355774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1644870371 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 207878068742532065, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
+  m_PrefabInstance: {fileID: 1018906230500355774}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1658077604 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1515773625839686670, guid: 0006da297bff54f6fb9b6e8386f5bb10, type: 3}
@@ -3326,10 +3336,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 207878068742532064, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
+      propertyPath: m_Name
+      value: ty
+      objectReference: {fileID: 0}
     - target: {fileID: 207878068742532065, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9000000, guid: f0fbc91607c5646f8aaca82e9596c29c, type: 3}
     - target: {fileID: 1018906228731236232, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
       propertyPath: pauseMenuCanvas
       value: 
@@ -3342,6 +3356,14 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1027054553}
+    - target: {fileID: 1018906228731236240, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
+      propertyPath: ty
+      value: 
+      objectReference: {fileID: 1644870370}
+    - target: {fileID: 1018906228731236240, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1644870371}
     - target: {fileID: 1018906228731236240, guid: d2525ed5bce5144afa85b63a8e28e148, type: 3}
       propertyPath: fallCheck
       value: 
