@@ -22,7 +22,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: 9df49a195179e4a53ac4068afdffe214, type: 3}
-  m_Tag: 
+  m_Tag: FallingImpact
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
