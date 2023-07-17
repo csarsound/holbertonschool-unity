@@ -3901,9 +3901,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1027054553}
     - target: {fileID: 5708987945544944139, guid: 53137e6669c60427bacb79b501126efb, type: 3}
+      propertyPath: pausedSnapshot
+      value: 
+      objectReference: {fileID: 6292337313460249483, guid: ffac31d5d1a25484cb7a3fb73ef5dc91, type: 2}
+    - target: {fileID: 5708987945544944139, guid: 53137e6669c60427bacb79b501126efb, type: 3}
       propertyPath: pauseMenuCanvas
       value: 
       objectReference: {fileID: 1006929926}
+    - target: {fileID: 5708987945544944139, guid: 53137e6669c60427bacb79b501126efb, type: 3}
+      propertyPath: unpausedSnapshot
+      value: 
+      objectReference: {fileID: -3921922162859057806, guid: ffac31d5d1a25484cb7a3fb73ef5dc91, type: 2}
     - target: {fileID: 5708987945544944147, guid: 53137e6669c60427bacb79b501126efb, type: 3}
       propertyPath: fallCheck
       value: 
