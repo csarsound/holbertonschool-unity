@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f13d0dd6f0acf4e3fb945ef32a9203c1, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f13d0dd6f0acf4e3fb945ef32a9203c1, type: 3}
 --- !u!1 &89712454 stripped
@@ -1002,6 +1006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_head
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c2fe6417695274b6d82d95c6eb4c201e, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2fe6417695274b6d82d95c6eb4c201e, type: 3}
 --- !u!1001 &812144315
@@ -1284,9 +1292,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1027054553}
     - target: {fileID: 5708987945544944139, guid: 53137e6669c60427bacb79b501126efb, type: 3}
+      propertyPath: pausedSnapshot
+      value: 
+      objectReference: {fileID: 6292337313460249483, guid: ffac31d5d1a25484cb7a3fb73ef5dc91, type: 2}
+    - target: {fileID: 5708987945544944139, guid: 53137e6669c60427bacb79b501126efb, type: 3}
       propertyPath: pauseMenuCanvas
       value: 
       objectReference: {fileID: 1350578248}
+    - target: {fileID: 5708987945544944139, guid: 53137e6669c60427bacb79b501126efb, type: 3}
+      propertyPath: unpausedSnapshot
+      value: 
+      objectReference: {fileID: -3921922162859057806, guid: ffac31d5d1a25484cb7a3fb73ef5dc91, type: 2}
     - target: {fileID: 5708987945544944147, guid: 53137e6669c60427bacb79b501126efb, type: 3}
       propertyPath: fallCheck
       value: 
@@ -1586,7 +1602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e30f888ee344b421ca0694825ee9e1ce, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e30f888ee344b421ca0694825ee9e1ce, type: 3}
@@ -1755,7 +1771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e30f888ee344b421ca0694825ee9e1ce, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e30f888ee344b421ca0694825ee9e1ce, type: 3}
@@ -1830,6 +1846,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03c893729fadd4a75a127635833548ae, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c893729fadd4a75a127635833548ae, type: 3}
 --- !u!1 &1350578248 stripped
@@ -1903,6 +1923,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 73aef8626367d429f982e46331a68009, type: 3}
       propertyPath: m_Name
       value: sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73aef8626367d429f982e46331a68009, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73aef8626367d429f982e46331a68009, type: 3}
@@ -1984,6 +2008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_smallTopB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f48d7a81afbbb4cbba02c0a927ce06f5, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f48d7a81afbbb4cbba02c0a927ce06f5, type: 3}
 --- !u!1001 &1665544198
@@ -2053,6 +2081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crops_wheatStageB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b500bfc1304224f138b897fedeb02ab8, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b500bfc1304224f138b897fedeb02ab8, type: 3}
 --- !u!1 &1787201306 stripped
@@ -2090,6 +2122,134 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7998806513205308417, guid: e30f888ee344b421ca0694825ee9e1ce, type: 3}
+--- !u!1 &1891261906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891261908}
+  - component: {fileID: 1891261907}
+  m_Layer: 0
+  m_Name: PorchSwingDays
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1891261907
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891261906}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -2663664979414891461, guid: ffac31d5d1a25484cb7a3fb73ef5dc91, type: 2}
+  m_audioClip: {fileID: 8300000, guid: fbc5f8d0a81514c9ba2beff30f2b7e97, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1891261908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891261906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1948287673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b500bfc1304224f138b897fedeb02ab8, type: 3}
@@ -2161,6 +2321,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e96bdc2bbf8d543bfae0bf1cb3837859, type: 3}
       propertyPath: m_Name
       value: statue_columnDamaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e96bdc2bbf8d543bfae0bf1cb3837859, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e96bdc2bbf8d543bfae0bf1cb3837859, type: 3}
@@ -2381,7 +2545,7 @@ GameObject:
   - component: {fileID: 2129903079}
   m_Layer: 6
   m_Name: Platform (2)
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2522,9 +2686,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1027054553}
     - target: {fileID: 1515773625839686659, guid: 0006da297bff54f6fb9b6e8386f5bb10, type: 3}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 1891261906}
+    - target: {fileID: 1515773625839686659, guid: 0006da297bff54f6fb9b6e8386f5bb10, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1787201306}
     - target: {fileID: 1515773625839686659, guid: 0006da297bff54f6fb9b6e8386f5bb10, type: 3}
       propertyPath: winCanvas
       value: 
