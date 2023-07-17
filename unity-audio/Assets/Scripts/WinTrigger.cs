@@ -7,6 +7,7 @@ public class WinTrigger : MonoBehaviour
 {
     public GameObject player;
     public GameObject winCanvas;
+    public GameObject Audio; // Ambient Sound Stop
     public Text time;
 
     void OnTriggerEnter(Collider other)
@@ -18,6 +19,7 @@ public class WinTrigger : MonoBehaviour
             time.color = Color.green;
             time.fontSize = 60;
             winCanvas.SetActive(true);
+            Audio.SetActive(false);
 
             if (timer != null)
             {

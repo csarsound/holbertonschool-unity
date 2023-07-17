@@ -43,7 +43,6 @@ public class AudioPlayer : MonoBehaviour
                 if (!audioSource.isPlaying)
                 {
                     audioSource.Play();
-                    Debug.Log("AudioClip");
                 }
             }
         }
