@@ -1202,7 +1202,9 @@ MonoBehaviour:
   invertYToggle: {fileID: 1672884291}
   audioMixer: {fileID: 24100000, guid: ffac31d5d1a25484cb7a3fb73ef5dc91, type: 2}
   bgmSlider: {fileID: 429751378}
+  sfxSlider: {fileID: 555445957}
   volumeParameter: BGM
+  volumeParameterSFX: SFXVolume
 --- !u!1 &785943189
 GameObject:
   m_ObjectHideFlags: 0

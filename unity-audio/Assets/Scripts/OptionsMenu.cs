@@ -10,15 +10,20 @@ public class OptionsMenu : MonoBehaviour
     private bool isInverted = false;
     public AudioMixer audioMixer;
     public Slider bgmSlider;
+    public Slider sfxSlider;
     public string volumeParameter = "BGM";
+    public string volumeParameterSFX = "SFXVolume";
 
     private void Start()
     {
         // Obtener el valor guardado del volumen desde PlayerPrefs
         float savedVolume = PlayerPrefs.GetFloat(volumeParameter, 1f);
+                // Obtener el valor guardado del volumen desde PlayerPrefs
+        float savedVolumeSFX = PlayerPrefs.GetFloat(volumeParameterSFX, 1f);
 
         // Establecer el valor del slider al valor guardado
         bgmSlider.value = savedVolume;
+        sfxSlider.value = savedVolumeSFX;
 
         // Actualizar el volumen del audio de fondo
         SetBGMVolume(savedVolume);
@@ -61,7 +66,7 @@ public class OptionsMenu : MonoBehaviour
 
     private void SetBGMVolume(float volume)
     {
-        // Convertir el valor del slider en una escala lineal desde -80 dB (silenciado) hasta 0 dB (volumen máximo)
+        // Convertir el valor del slider en una escala lineal d esde -80 dB (silenciado) hasta 0 dB (volumen máximo)
         float dB = Mathf.Lerp(-80f, 0f, volume);
         // Establecer el volumen en el parámetro del Audio Mixer
         audioMixer.SetFloat(volumeParameter, dB);
